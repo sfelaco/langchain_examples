@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            //"program": "${file}",
+            "program": "${workspaceFolder}/src/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "CAPITAL_USERNAME": "discarded.photos.project@gmail.com",
+                "CAPITAL_PASSWORD": "QscBjk1000!",
+                "CAPITAL_API_KEY": "HGxh768KfbqRL1Qi",
+                "CAPITAL_SYMBOL": "AMD",
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "password",
+                "DB_HOST": "172.22.112.1",
+                "DB_PORT": "5432",
+                "DB_NAME": "postgres"
+            },
+            "justMyCode": true
+        }
+    ]
+}
