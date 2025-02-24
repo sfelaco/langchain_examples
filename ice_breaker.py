@@ -46,8 +46,8 @@ def ice_break_with(name: str) -> Tuple[Summary, str]:
     return res, linkedin_data.get("profile_pic_url")
 
 
-if __name__ == "__main__":
-    load_dotenv()
+# if __name__ == "__main__":
+#     load_dotenv()
 
-    print("Ice Breaker Enter")
-    ice_break_with(name="Harrison Chase")
+#     print("Ice Breaker Enter")
+#     ice_break_with(name="Harrison Chase")
