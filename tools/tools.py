@@ -1,8 +1,6 @@
-from langchain_community.tools.tavily_search import TavilySearchResults
+from langchain_community.tools import TavilySearchResults
 
-
-def get_profile_url_tavily(name: str):
-    """Searches for Linkedin or Twitter Profile Page."""
+def get_profile_url_tavily(name: str) -> str:
     search = TavilySearchResults()
-    res = search.run(f"{name}")
+    res = search.invoke({'query': name})
     return res[0]["url"]
