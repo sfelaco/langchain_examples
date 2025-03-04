@@ -10,6 +10,8 @@ langchain-openai = "*"
 tweepy = "*"
 flask = "*"
 langsmith = "*"
+langchain-pinecone = "*"
+langchainhub = "*"
 
 [dev-packages]
 
