@@ -11,7 +11,10 @@ tweepy = "*"
 flask = "*"
 langsmith = "*"
 langchain-pinecone = "*"
+langchain-community = "*"
 langchainhub = "*"
+faiss-cpu = "*"
+pypdf = "*"
 
 [dev-packages]
 
